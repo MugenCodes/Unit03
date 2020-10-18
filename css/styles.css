@@ -1,0 +1,40 @@
+/*
+UNIVERSAL SELECTOR
+*/
+* {
+    font-family: 'Merriweather', serif;
+    box-sizing: border-box;
+}
+/*
+MAIN Container
+*/
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*
+MAIN HEADING & Title
+*/
+
+.main-header{
+    background-color: #2d3945;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 0.5em;
+}
+
+.sign-up{
+    text-align: center;
+
+}
+
+.sign-up h2{
+    font-size: 1.5em;
+    color: #313a42;
+    font-weight: 900;
+}
