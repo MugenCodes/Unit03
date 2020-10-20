@@ -10,8 +10,8 @@ MAIN Container
 */
 
 .container {
-    width: 80%;
-    margin: 0 auto;
+    width: 95%;
+    margin: auto;
 }
 
 /*
@@ -29,10 +29,34 @@ MAIN HEADING & Title
 
 .sign-up{
     text-align: center;
-
+    border-bottom: 3px black solid;
+    padding:  10px 0 30px 0;
+    width: 95%;
+    margin: auto;
 }
 
-.sign-up h2{
+h2{
     color: #313a42;
     font-weight: 900;
+}
+
+.sign-up span{
+    opacity: 0.5;
+}
+
+/*
+FORM
+*/
+
+fieldset{
+    margin-top: 5px;
+    border: none;
+    border-top: solid 2px black;
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset div{
+    display: flex;
+    flex-direction: column;
 }
