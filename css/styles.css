@@ -79,6 +79,7 @@ fieldset div{
     border: none;
     padding: 10px;
     border-radius: 5px;
+    transition: background-color 0.5s ease;
 }
 
 .contact input[id="zip"]{
@@ -134,6 +135,10 @@ footer{
 Transitions
 */
 
+.contact input:focus,
+.newsletter textarea:focus{
+    background-color: lightblue;
+}
 
 
 /*
