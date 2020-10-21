@@ -131,6 +131,12 @@ footer{
 }
 
 /*
+Transitions
+*/
+
+
+
+/*
 MEDIA Queries
 */
 
@@ -141,6 +147,22 @@ MEDIA Queries
         width: 70%;
         margin: auto;
     }
+
+    fieldset div{
+        
+        flex-direction: row;    
+    }
+
+    .contact div input,
+    .contact div select{
+        flex: 3;
+    }
+
+    .contact div label{
+        flex: 1;
+        align-self: center;
+    }
+
 
 
 }
