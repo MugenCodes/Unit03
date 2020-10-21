@@ -49,7 +49,7 @@ FORM
 */
 
 fieldset{
-    margin-top: 5px;
+    margin: 5px 0px 20px 0px;
     border: none;
     border-top: solid 2px black;
     display: flex;
@@ -57,7 +57,7 @@ fieldset{
     padding: 0;
 }
 
-label{
+label, span{
     opacity: 0.6;
 }
 
@@ -76,4 +76,17 @@ fieldset div{
     background-color: #eff0f1;
     border: none;
     padding: 10px;
+    border-radius: 5px;
+}
+
+.contact input[id="zip"]{
+    width: 50%;
+}
+
+.contact input::placeholder,
+.contact select{
+    font-size: small;
+    text-align: right;
+    font-style: italic;
+    opacity: 0.5;
 }
