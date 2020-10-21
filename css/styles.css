@@ -138,6 +138,9 @@ Transitions
 .contact input:focus,
 .newsletter textarea:focus{
     background-color: lightblue;
+    outline: none !important;
+    border:1px solid lightgray;
+    box-shadow: 0 0 5px lightgray;
 }
 
 
